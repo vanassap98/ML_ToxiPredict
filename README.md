@@ -37,7 +37,8 @@ For this project, we use the `a-F2F_mortality.csv` subset: a benchmark challenge
 📚 Reference:  
 Schür C, et al. (2023). *A benchmark dataset for machine learning in ecotoxicology.* Scientific Data. https://doi.org/10.1038/s41597-023-02612-2
 
-
+⚠️ Due to GitHub limitations, the complete raw dataset (t-F2F_mortality.csv) is not included in this repository, as it exceeds the 100 MB file size limit.
+A sample dataset is provided instead in src/data_sample/sample_t-F2F_mortality.csv to ensure reproducibility and structure demonstration.
 
 ### Objectives
 
@@ -114,8 +115,11 @@ Los datos utilizados provienen de ADORE (A Data-driven benchmark fOR Ecotoxicolo
 
 Para este proyecto se ha utilizado el subset a-F2F_mortality.csv, centrado en predecir toxicidad en peces a partir de datos históricos en la misma clase taxonómica.
 
-### 📚 Referencia:
+📚 Referencia:
 Schür C, et al. (2023). A benchmark dataset for machine learning in ecotoxicology. Scientific Data. https://doi.org/10.1038/s41597-023-02612-2
+
+⚠️ Debido a las limitaciones de GitHub, el dataset completo (t-F2F_mortality.csv) no está incluido en este repositorio, ya que excede el límite de tamaño de archivo (100 MB).
+En su lugar, se proporciona una muestra representativa en src/data_sample/sample_t-F2F_mortality.csv, útil para replicar la estructura y el flujo del proyecto.
 
 ### Objetivos
 - Realizar un EDA estructurado sobre las variables ecotoxicológicas
