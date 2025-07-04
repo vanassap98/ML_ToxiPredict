@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+.venv
+venv/
+*.egg-info
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+/data/*
+src/data_sample/t-F2F_mortality.csv
+
+
+# OS
+.DS_Store
+Thumbs.db
